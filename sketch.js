@@ -185,7 +185,7 @@ function draw() {
   textSize(36);
   textAlign(LEFT, TOP);
   textFont("'Noto Serif SC', serif");
-  text("双指之间，春日可见", 80, 310);
+  text("双指之间，春日可见", 80, 295);
 
   // 右上角 "寻·春"
   fill("#FF94C6"); // 文字颜色改为 FF94C6
@@ -214,7 +214,7 @@ function draw() {
     textSize(54);
     textAlign(CENTER, CENTER);
     textFont("'Noto Serif SC', serif");
-    text("请  寻  找  春  天", width / 2 , height * 0.6);
+    text("请  寻  找  春  天", width / 2 , height * 0.5);
     textSize(24);
     textFont('Arial'); // 中文字体（无衬线字体）
     fill("#FFFFFF");
