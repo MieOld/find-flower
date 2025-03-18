@@ -184,14 +184,14 @@ function draw() {
   noStroke();
   textSize(36);
   textAlign(LEFT, TOP);
-  textFont('Songti SC'); // 中文字体（宋体）
+  textFont("'Noto Serif SC', serif");
   text("双指之间，春日可见", 80, 310);
 
   // 右上角 "寻·春"
   fill("#FF94C6"); // 文字颜色改为 FF94C6
   textSize(72);
   textAlign(RIGHT, TOP);
-  textFont('Songti SC'); // 中文字体（宋体）
+  textFont("'Noto Serif SC', serif");
   text("寻·花", width - 80, 250);
 
   // 左下角 "march 2025"
@@ -213,7 +213,7 @@ function draw() {
     fill("#FF94C6"); // 文字颜色改为 FF94C6
     textSize(54);
     textAlign(CENTER, CENTER);
-    textFont('Songti SC'); // 中文字体（宋体）
+    textFont("'Noto Serif SC', serif");
     text("请  寻  找  春  天", width / 2 , height * 0.6);
     textSize(24);
     textFont('Arial'); // 中文字体（无衬线字体）
