@@ -174,36 +174,36 @@ function draw() {
   // 左上角 "Seeking Spring"
   fill("#FFFFFF");
   noStroke();
-  textSize(36);
+  textSize(54);
   textAlign(LEFT, TOP);
   textFont('Times New Roman'); // 英文字体（衬线字体）
-  text("Seeking Flower", 80, 200);
+  text("Seeking Flower", 80, 230);
   
   // 左上角 "双指之间，春日可见"
   fill("#FF94C6"); // 文字颜色改为 FF94C6
   noStroke();
-  textSize(24);
+  textSize(36);
   textAlign(LEFT, TOP);
-  textFont('SimSun'); // 中文字体（宋体）
-  text("双指之间，春日可见", 80, 230);
+  textFont('Songti SC'); // 中文字体（宋体）
+  text("双指之间，春日可见", 80, 310);
 
   // 右上角 "寻·春"
   fill("#FF94C6"); // 文字颜色改为 FF94C6
-  textSize(64);
+  textSize(72);
   textAlign(RIGHT, TOP);
-  textFont('SimSun'); // 中文字体（宋体）
-  text("寻·花", width - 80, 200);
+  textFont('Songti SC'); // 中文字体（宋体）
+  text("寻·花", width - 80, 250);
 
   // 左下角 "march 2025"
   fill("#FF94C6"); // 文字颜色改为 FF94C6
-  textSize(24);
+  textSize(36);
   textAlign(LEFT, BOTTOM);
   textFont('Times New Roman'); // 英文字体（衬线字体）
   text("March 2025", 80, height - 250);
 
   // 右下角 "By MieOld"
   fill("#FFFFFF");
-  textSize(24);
+  textSize(36);
   textAlign(RIGHT, BOTTOM);
   textFont('Times New Roman'); // 英文字体（衬线字体）
   text("By MieOld", width - 80, height - 250);
@@ -211,9 +211,9 @@ function draw() {
   // 在没有手时显示文本
   if (hands.length === 0) {
     fill("#FF94C6"); // 文字颜色改为 FF94C6
-    textSize(42);
+    textSize(54);
     textAlign(CENTER, CENTER);
-    textFont('SimSun'); // 中文字体（宋体）
+    textFont('Songti SC'); // 中文字体（宋体）
     text("请  寻  找  春  天", width / 2 , height * 0.6);
     textSize(24);
     textFont('Arial'); // 中文字体（无衬线字体）
