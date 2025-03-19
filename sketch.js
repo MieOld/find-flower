@@ -126,7 +126,7 @@ function draw() {
       }
       
       ctx.closePath();
-      ctx.fillStyle = "rgba(255,255,255,0.9)";
+      ctx.fillStyle = "rgba(255,255,255,0.7)";
       // 使用 "evenodd" 填充规则扣除两个花形区域
       ctx.fill("evenodd");
     pop();
